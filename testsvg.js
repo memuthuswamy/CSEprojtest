@@ -20,7 +20,7 @@ for (var i = 0; i < rsrGroups.length; i++)
 	rsrGroups[i].mouseover(function(){
 		this.node.style.opacity = 0.7;
 		});
-	rsrGroups.mouseout(function(){
+	rsrGroups[i].mouseout(function(){
 		this.node.style.opacity = 1; 
 		});
 	}
